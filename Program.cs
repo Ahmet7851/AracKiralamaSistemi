@@ -16,7 +16,7 @@ namespace AracKiralamaSistemi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new AnaForm()); // Form1() yerine AnaForm() yazdık
         }
     }
 }

@@ -1,0 +1,13 @@
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\bin\Debug\AracKiralamaSistemi.exe.config
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\bin\Debug\AracKiralamaSistemi.exe
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\bin\Debug\AracKiralamaSistemi.pdb
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.csproj.AssemblyReference.cache
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.AnaForm.resources
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.Forms.AracYonetimForm.resources
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.Forms.MusteriKayitForm.resources
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.Properties.Resources.resources
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.csproj.GenerateResource.cache
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.exe
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.pdb
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.Forms.KiralamaForm.resources
