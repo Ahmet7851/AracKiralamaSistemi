@@ -34,5 +34,26 @@ namespace AracKiralamaSistemi
             KiralamaForm kiralamaForm = new KiralamaForm();
             kiralamaForm.ShowDialog();
         }
+
+        private void btnRaporlar_Click(object sender, EventArgs e)
+        {
+            RaporForm raporForm = new RaporForm();
+            raporForm.ShowDialog();
+        }
+
+        private void btnAracYonetimi_Click(object sender, EventArgs e)
+        {
+            // AracYonetimForm'dan bir örnek (instance) oluşturuyoruz.
+            AracYonetimForm aracForm = new AracYonetimForm();
+
+            // Oluşturduğumuz formu kullanıcıya gösteriyoruz.
+            // ShowDialog(), formu modal olarak açar. Yani, bu form kapatılana kadar
+            // AnaForm'a geri dönülemez. Bu genellikle alt formlar için tercih edilir.
+            aracForm.ShowDialog();
+
+            // Eğer AnaForm'a dönebilmek ve aynı anda AracYonetimForm'u da açık tutmak
+            // isterseniz (non-modal), aşağıdaki satırı kullanabilirsiniz:
+            // aracForm.Show();
+        }
     }
 }

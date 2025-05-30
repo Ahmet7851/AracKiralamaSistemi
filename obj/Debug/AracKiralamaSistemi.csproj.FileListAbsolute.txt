@@ -11,3 +11,4 @@ C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\Ar
 C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.exe
 C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.pdb
 C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.Forms.KiralamaForm.resources
+C:\Users\ahmet\source\repos\AracKiralamaSistemi\AracKiralamaSistemi\obj\Debug\AracKiralamaSistemi.Forms.RaporForm.resources

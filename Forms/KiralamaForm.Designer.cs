@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.gbKiralamaBilgileri = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.cmbMusteriler = new System.Windows.Forms.ComboBox();
-            this.cmbMusaitAraclar = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dtpKiralamaBaslangic = new System.Windows.Forms.DateTimePicker();
-            this.dtpKiralamaBitis = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lblAracOzellikleri = new System.Windows.Forms.Label();
-            this.lblToplamTutar = new System.Windows.Forms.Label();
-            this.btnKirala = new System.Windows.Forms.Button();
             this.btnFiyatHesapla = new System.Windows.Forms.Button();
+            this.btnKirala = new System.Windows.Forms.Button();
+            this.lblToplamTutar = new System.Windows.Forms.Label();
+            this.lblAracOzellikleri = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dtpKiralamaBitis = new System.Windows.Forms.DateTimePicker();
+            this.dtpKiralamaBaslangic = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cmbMusaitAraclar = new System.Windows.Forms.ComboBox();
+            this.cmbMusteriler = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.gbKiralamaBilgileri.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,112 +62,20 @@
             this.gbKiralamaBilgileri.Controls.Add(this.label1);
             this.gbKiralamaBilgileri.Location = new System.Drawing.Point(35, 41);
             this.gbKiralamaBilgileri.Name = "gbKiralamaBilgileri";
-            this.gbKiralamaBilgileri.Size = new System.Drawing.Size(474, 349);
+            this.gbKiralamaBilgileri.Size = new System.Drawing.Size(558, 349);
             this.gbKiralamaBilgileri.TabIndex = 0;
             this.gbKiralamaBilgileri.TabStop = false;
             this.gbKiralamaBilgileri.Text = "Kiralama Bilgileri";
             // 
-            // label1
+            // btnFiyatHesapla
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(56, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Müşteri Seçin:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(34, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Müsait Araç Seçin:";
-            // 
-            // cmbMusteriler
-            // 
-            this.cmbMusteriler.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbMusteriler.FormattingEnabled = true;
-            this.cmbMusteriler.Location = new System.Drawing.Point(136, 19);
-            this.cmbMusteriler.Name = "cmbMusteriler";
-            this.cmbMusteriler.Size = new System.Drawing.Size(121, 21);
-            this.cmbMusteriler.TabIndex = 2;
-            this.cmbMusteriler.SelectedIndexChanged += new System.EventHandler(this.cmbMusteriler_SelectedIndexChanged);
-            // 
-            // cmbMusaitAraclar
-            // 
-            this.cmbMusaitAraclar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbMusaitAraclar.FormattingEnabled = true;
-            this.cmbMusaitAraclar.Location = new System.Drawing.Point(136, 57);
-            this.cmbMusaitAraclar.Name = "cmbMusaitAraclar";
-            this.cmbMusaitAraclar.Size = new System.Drawing.Size(121, 21);
-            this.cmbMusaitAraclar.TabIndex = 3;
-            this.cmbMusaitAraclar.SelectedIndexChanged += new System.EventHandler(this.cmbMusaitAraclar_SelectedIndexChanged);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(2, 111);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(128, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Kiralama Başlangıç Tarihi:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(29, 149);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Kiralama Bitiş Tarihi:";
-            // 
-            // dtpKiralamaBaslangic
-            // 
-            this.dtpKiralamaBaslangic.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpKiralamaBaslangic.Location = new System.Drawing.Point(136, 105);
-            this.dtpKiralamaBaslangic.Name = "dtpKiralamaBaslangic";
-            this.dtpKiralamaBaslangic.Size = new System.Drawing.Size(121, 20);
-            this.dtpKiralamaBaslangic.TabIndex = 6;
-            this.dtpKiralamaBaslangic.ValueChanged += new System.EventHandler(this.dtpKiralamaBaslangic_ValueChanged);
-            // 
-            // dtpKiralamaBitis
-            // 
-            this.dtpKiralamaBitis.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpKiralamaBitis.Location = new System.Drawing.Point(136, 143);
-            this.dtpKiralamaBitis.Name = "dtpKiralamaBitis";
-            this.dtpKiralamaBitis.Size = new System.Drawing.Size(121, 20);
-            this.dtpKiralamaBitis.TabIndex = 7;
-            this.dtpKiralamaBitis.ValueChanged += new System.EventHandler(this.dtpKiralamaBitis_ValueChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(29, 188);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(117, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Seçilen Araç Özellikleri:";
-            // 
-            // lblAracOzellikleri
-            // 
-            this.lblAracOzellikleri.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblAracOzellikleri.Location = new System.Drawing.Point(152, 188);
-            this.lblAracOzellikleri.Name = "lblAracOzellikleri";
-            this.lblAracOzellikleri.Size = new System.Drawing.Size(100, 60);
-            this.lblAracOzellikleri.TabIndex = 9;
-            // 
-            // lblToplamTutar
-            // 
-            this.lblToplamTutar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblToplamTutar.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblToplamTutar.Location = new System.Drawing.Point(281, 188);
-            this.lblToplamTutar.Name = "lblToplamTutar";
-            this.lblToplamTutar.Size = new System.Drawing.Size(123, 23);
-            this.lblToplamTutar.TabIndex = 10;
-            this.lblToplamTutar.Text = "Toplam Tutar: - TL";
-            this.lblToplamTutar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFiyatHesapla.Location = new System.Drawing.Point(118, 294);
+            this.btnFiyatHesapla.Name = "btnFiyatHesapla";
+            this.btnFiyatHesapla.Size = new System.Drawing.Size(75, 39);
+            this.btnFiyatHesapla.TabIndex = 12;
+            this.btnFiyatHesapla.Text = "Fiyatı Hesapla";
+            this.btnFiyatHesapla.UseVisualStyleBackColor = true;
+            this.btnFiyatHesapla.Click += new System.EventHandler(this.btnFiyatHesapla_Click);
             // 
             // btnKirala
             // 
@@ -179,15 +87,107 @@
             this.btnKirala.UseVisualStyleBackColor = true;
             this.btnKirala.Click += new System.EventHandler(this.btnKirala_Click);
             // 
-            // btnFiyatHesapla
+            // lblToplamTutar
             // 
-            this.btnFiyatHesapla.Location = new System.Drawing.Point(118, 294);
-            this.btnFiyatHesapla.Name = "btnFiyatHesapla";
-            this.btnFiyatHesapla.Size = new System.Drawing.Size(75, 39);
-            this.btnFiyatHesapla.TabIndex = 12;
-            this.btnFiyatHesapla.Text = "Fiyatı Hesapla";
-            this.btnFiyatHesapla.UseVisualStyleBackColor = true;
-            this.btnFiyatHesapla.Click += new System.EventHandler(this.btnFiyatHesapla_Click);
+            this.lblToplamTutar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblToplamTutar.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblToplamTutar.Location = new System.Drawing.Point(328, 198);
+            this.lblToplamTutar.Name = "lblToplamTutar";
+            this.lblToplamTutar.Size = new System.Drawing.Size(173, 60);
+            this.lblToplamTutar.TabIndex = 10;
+            this.lblToplamTutar.Text = "Toplam Tutar: - TL";
+            this.lblToplamTutar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblAracOzellikleri
+            // 
+            this.lblAracOzellikleri.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblAracOzellikleri.Location = new System.Drawing.Point(152, 188);
+            this.lblAracOzellikleri.Name = "lblAracOzellikleri";
+            this.lblAracOzellikleri.Size = new System.Drawing.Size(149, 87);
+            this.lblAracOzellikleri.TabIndex = 9;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(29, 188);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(117, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Seçilen Araç Özellikleri:";
+            // 
+            // dtpKiralamaBitis
+            // 
+            this.dtpKiralamaBitis.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpKiralamaBitis.Location = new System.Drawing.Point(136, 143);
+            this.dtpKiralamaBitis.Name = "dtpKiralamaBitis";
+            this.dtpKiralamaBitis.Size = new System.Drawing.Size(121, 20);
+            this.dtpKiralamaBitis.TabIndex = 7;
+            this.dtpKiralamaBitis.ValueChanged += new System.EventHandler(this.dtpKiralamaBitis_ValueChanged);
+            // 
+            // dtpKiralamaBaslangic
+            // 
+            this.dtpKiralamaBaslangic.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpKiralamaBaslangic.Location = new System.Drawing.Point(136, 105);
+            this.dtpKiralamaBaslangic.Name = "dtpKiralamaBaslangic";
+            this.dtpKiralamaBaslangic.Size = new System.Drawing.Size(121, 20);
+            this.dtpKiralamaBaslangic.TabIndex = 6;
+            this.dtpKiralamaBaslangic.ValueChanged += new System.EventHandler(this.dtpKiralamaBaslangic_ValueChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(29, 149);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(101, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Kiralama Bitiş Tarihi:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(2, 111);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(128, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Kiralama Başlangıç Tarihi:";
+            // 
+            // cmbMusaitAraclar
+            // 
+            this.cmbMusaitAraclar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbMusaitAraclar.FormattingEnabled = true;
+            this.cmbMusaitAraclar.Location = new System.Drawing.Point(136, 57);
+            this.cmbMusaitAraclar.Name = "cmbMusaitAraclar";
+            this.cmbMusaitAraclar.Size = new System.Drawing.Size(121, 21);
+            this.cmbMusaitAraclar.TabIndex = 3;
+            this.cmbMusaitAraclar.SelectedIndexChanged += new System.EventHandler(this.cmbMusaitAraclar_SelectedIndexChanged);
+            // 
+            // cmbMusteriler
+            // 
+            this.cmbMusteriler.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbMusteriler.FormattingEnabled = true;
+            this.cmbMusteriler.Location = new System.Drawing.Point(136, 19);
+            this.cmbMusteriler.Name = "cmbMusteriler";
+            this.cmbMusteriler.Size = new System.Drawing.Size(121, 21);
+            this.cmbMusteriler.TabIndex = 2;
+            this.cmbMusteriler.SelectedIndexChanged += new System.EventHandler(this.cmbMusteriler_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(34, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Müsait Araç Seçin:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(56, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Müşteri Seçin:";
             // 
             // KiralamaForm
             // 
