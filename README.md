@@ -73,28 +73,24 @@ Bu projede aşağıdaki Nesne Yönelimli Programlama kavramları aktif olarak ku
 Bu bölümde, uygulamanın temel pencerelerine ait ekran görüntüleri yer alacaktır.
 
 ### 1. Ana Menü (`AnaForm.cs`)
-*(Buraya AnaForm'un ekran görüntüsünü ekleyin. Markdown formatında: `![Ana Form](screenshots/ana_form.png)` şeklinde veya sadece dosya adıyla `![Ana Form](ana_form.png)` eğer README ile aynı dizindeyse)*
-
+![image](https://github.com/user-attachments/assets/ab7f3e3f-dbdf-4988-848e-dfa6c19e39f3)
 **Açıklama:** Uygulama açıldığında kullanıcıyı karşılayan ve diğer modüllere navigasyon sağlayan ana pencere.
 
 ### 2. Araç Yönetim Penceresi (`AracYonetimForm.cs`)
-*(Buraya AracYonetimForm'un ekran görüntüsünü ekleyin. Markdown formatında)*
-
+![image](https://github.com/user-attachments/assets/86e51ed9-ae75-48b8-82f1-9c6b192703b3)
 **Açıklama:** Araçların eklendiği, güncellendiği, silindiği ve listelendiği pencere. Araç tipi seçimine göre farklı özellik alanları aktifleşir.
 
 ### 3. Müşteri Kayıt Penceresi (`MusteriKayitForm.cs`)
-*(Buraya MusteriKayitForm'un ekran görüntüsünü ekleyin. Markdown formatında)*
-
+![image](https://github.com/user-attachments/assets/f86819ad-1fd1-48d8-abaf-6c358361e0a1)
 **Açıklama:** Müşteri bilgilerinin yönetildiği pencere.
 
 ### 4. Yeni Kiralama Sözleşmesi Penceresi (`KiralamaForm.cs`)
-*(Buraya KiralamaForm'un ekran görüntüsünü ekleyin. Markdown formatında)*
-
+![image](https://github.com/user-attachments/assets/0f24693a-1ec4-4323-a1be-cd015c91a3c0)
 **Açıklama:** Müşteri ve araç seçilerek kiralama sözleşmesinin oluşturulduğu, tarihlerin ve ücretin belirlendiği pencere.
 
 ### 5. Raporlar Penceresi (`RaporForm.cs`)
-*(Buraya RaporForm'un ekran görüntüsünü ekleyin. Markdown formatında - Aktif Kiralamalar sekmesi açık olabilir)*
-
+![image](https://github.com/user-attachments/assets/f386b6de-cb64-49e9-828c-22c0fd2e7567)
+![image](https://github.com/user-attachments/assets/0f3bc108-309e-428f-8f30-4b05742b037c)
 **Açıklama:** Aktif kiralamaların ve en çok kiralanan araçların görüntülendiği, teslim alma işlemlerinin yapıldığı sekmeli rapor penceresi.
 
 ## Kurulum ve Çalıştırma
