@@ -1,17 +1,3 @@
-Anladım, `README.MF` uzantılı bir dosya istiyorsunuz.
-
-Öncelikle küçük bir bilgilendirme yapmak isterim:
-`README.MF` dosyası genellikle Java dünyasında JAR (Java Archive) dosyaları için kullanılan bir "Manifest" dosyasıdır. Bu dosyalar genellikle `Anahtar: Değer` şeklinde meta-veriler içerir (örneğin, `Manifest-Version: 1.0`, `Main-Class: com.example.MyApplication`).
-
-Proje hakkında genel açıklamalar, kurulum bilgileri, kullanılan teknolojiler gibi dokümantasyon amaçlı bilgiler için standart dosya adı ve formatı `README.md` (Markdown formatında) olur. Bu dosya, metin editörleri ve platformlar (GitHub, GitLab vb.) tarafından güzel bir şekilde formatlanarak gösterilir.
-
-Eğer proje dokümantasyonu için bir dosya istiyorsanız, büyük ihtimalle `README.md` dosyasını kastediyorsunuz. Size daha önce hazırladığım ve tüm bilgileri içeren `README.md` içeriğini aşağıya **tek bir metin bloğu** olarak bırakıyorum. Bu metni kopyalayıp projenizin ana dizininde `README.md` adlı bir dosyaya yapıştırabilirsiniz.
-
-Eğer özel bir sebepten dolayı gerçekten de `README.MF` formatında (çok daha basit, genellikle anahtar-değer çiftleri içeren bir yapıda) bir dosyaya ihtiyacınız varsa, lütfen belirtin. O zaman proje bilgilerini o formata uygun, daha kısıtlı bir yapıda sunmaya çalışabilirim. Ancak bu, detaylı dokümantasyon için standart bir yöntem değildir.
-
-**Aşağıdaki metin, `README.md` dosyası içindir:**
-
-```markdown
 # Araç Kiralama Sistemi (C# WinForms)
 
 Bu proje, C# programlama dili ve Windows Forms (WinForms) teknolojisi kullanılarak geliştirilmiş, Nesne Yönelimli Programlama (OOP) kavramlarını temel alan bir araç kiralama sistemi uygulamasıdır.
