@@ -70,7 +70,7 @@ Bu projede aşağıdaki Nesne Yönelimli Programlama kavramları aktif olarak ku
 
 ## Proje Yapısı (Klasörler)
 
-```
+
 AracKiralamaSistemi/
 |-- AracKiralamaSistemi.csproj
 |-- Program.cs
@@ -97,62 +97,6 @@ AracKiralamaSistemi/
 |   |-- RaporForm.cs
 |-- Data/                   # Geçici veri depolama (List<T> kullanan statik sınıf)
     |-- VeriDeposu.cs
-```
 
-## Proje Görselleri (Ekran Görüntüleri)
-
-Bu bölümde, uygulamanın temel pencerelerine ait ekran görüntüleri yer alacaktır.
-
-### 1. Ana Menü (`AnaForm.cs`)
-*(Buraya AnaForm'un ekran görüntüsünü ekleyin. Markdown formatında: `![Ana Form](screenshots/ana_form.png)` şeklinde veya sadece dosya adıyla `![Ana Form](ana_form.png)` eğer README ile aynı dizindeyse)*
-```
-[AnaForm Ekran Görüntüsü Buraya Gelecek]
-```
-**Açıklama:** Uygulama açıldığında kullanıcıyı karşılayan ve diğer modüllere navigasyon sağlayan ana pencere.
-
-### 2. Araç Yönetim Penceresi (`AracYonetimForm.cs`)
-*(Buraya AracYonetimForm'un ekran görüntüsünü ekleyin. Markdown formatında)*
-```
-[AracYonetimForm Ekran Görüntüsü Buraya Gelecek - Sedan seçiliyken özel alanlar görünebilir]
-```
-**Açıklama:** Araçların eklendiği, güncellendiği, silindiği ve listelendiği pencere. Araç tipi seçimine göre farklı özellik alanları aktifleşir.
-
-### 3. Müşteri Kayıt Penceresi (`MusteriKayitForm.cs`)
-*(Buraya MusteriKayitForm'un ekran görüntüsünü ekleyin. Markdown formatında)*
-```
-[MusteriKayitForm Ekran Görüntüsü Buraya Gelecek]
-```
-**Açıklama:** Müşteri bilgilerinin yönetildiği pencere.
-
-### 4. Yeni Kiralama Sözleşmesi Penceresi (`KiralamaForm.cs`)
-*(Buraya KiralamaForm'un ekran görüntüsünü ekleyin. Markdown formatında)*
-```
-[KiralamaForm Ekran Görüntüsü Buraya Gelecek - Araç ve müşteri seçilmiş, fiyat hesaplanmış olabilir]
-```
-**Açıklama:** Müşteri ve araç seçilerek kiralama sözleşmesinin oluşturulduğu, tarihlerin ve ücretin belirlendiği pencere.
-
-### 5. Raporlar Penceresi (`RaporForm.cs`)
-*(Buraya RaporForm'un ekran görüntüsünü ekleyin. Markdown formatında - Aktif Kiralamalar sekmesi açık olabilir)*
-```
-[RaporForm Ekran Görüntüsü Buraya Gelecek - Örneğin Aktif Kiralamalar sekmesi]
-```
-**Açıklama:** Aktif kiralamaların ve en çok kiralanan araçların görüntülendiği, teslim alma işlemlerinin yapıldığı sekmeli rapor penceresi.
-
-## Kurulum ve Çalıştırma
-
-1.  Projeyi bilgisayarınıza klonlayın veya ZIP olarak indirin.
-2.  Visual Studio (Önerilen sürüm: 2019 veya üstü) ile `AracKiralamaSistemi.sln` dosyasını açın.
-3.  Proje bağımlılıklarının otomatik olarak yüklenmesini bekleyin (genellikle .NET projelerinde ek bir adım gerektirmez).
-4.  Visual Studio'da "Start" (Başlat) butonuna tıklayarak veya F5 tuşuna basarak uygulamayı çalıştırın.
-
-## Gelecekteki Olası Geliştirmeler
-
-*   **Kalıcı Veri Depolama:** Verilerin uygulama kapatıldığında kaybolmaması için SQLite, SQL Server gibi bir veritabanı sistemi veya JSON/XML dosyalarına kayıt entegrasyonu.
-*   **Kullanıcı Giriş Sistemi:** Yetkilendirme için kullanıcı adı ve şifre ile giriş mekanizması.
-*   **Gelişmiş Raporlar:** Tarih aralığına göre gelir, müşteri bazlı kiralama geçmişi gibi daha detaylı raporlar.
-*   **Arama ve Filtreleme:** Araç ve müşteri listelerinde daha kapsamlı arama ve filtreleme özellikleri.
-*   **Görsel İyileştirmeler:** Daha modern bir görünüm ve kullanıcı deneyimi için arayüz iyileştirmeleri.
 *   **Birim Testleri (Unit Tests):** Servis katmanındaki metotların doğruluğunu sağlamak için birim testleri yazılması.
 
----
-```
